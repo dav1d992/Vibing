@@ -52,15 +52,6 @@ messageService.paginatedResult()?.items?.length === 0 ) {
       <td>{{ message.content }}</td>
       <td>
         <div>
-          <img
-            [src]="
-              isOutbox
-                ? message.recipientPhotoUrl || './assets/user.png'
-                : message.senderPhotoUrl || './assets/user.png'
-            "
-            alt="image of user"
-            class="rounded-circle me-2"
-          />
           <strong>{{
             isOutbox ? message.recipientUsername : message.senderUsername
           }}</strong>

@@ -51,13 +51,6 @@
         <h4>Interests</h4>
         <p>{{ member.interests }}</p>
       </tab>
-      <tab
-        heading="Photos"
-        #photoTab="tab"
-        (selectTab)="onTabActivated($event)"
-      >
-        @if (photoTab.active) { }
-      </tab>
       <tab heading="Messages" (selectTab)="onTabActivated($event)">
         <app-member-messages [username]="member.username"></app-member-messages>
       </tab>
