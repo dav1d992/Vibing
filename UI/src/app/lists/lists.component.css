@@ -1,0 +1,8 @@
+::ng-deep .pagination li {
+  background-color: var(--secondary);
+}
+
+::ng-deep .pagination li.active a {
+  background-color: var(--blue);
+  border: 0;
+}

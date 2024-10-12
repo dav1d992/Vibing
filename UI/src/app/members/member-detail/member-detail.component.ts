@@ -32,7 +32,6 @@ export class MemberDetailComponent implements OnInit, OnDestroy {
     this.route.data.subscribe({
       next: (data) => {
         this.member = data['member'];
-        this.member && this.member.photos.map((p) => {});
       },
     });
 

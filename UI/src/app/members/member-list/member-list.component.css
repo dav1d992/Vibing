@@ -1,0 +1,17 @@
+.btn.secondary:hover {
+    background-color: var(--light-blue); 
+}
+
+::ng-deep .pagination ul {
+    border: 0;
+}
+
+::ng-deep .pagination li {
+    background-color: var(--secondary);
+    border: 0;
+}
+  
+::ng-deep .pagination li.active a {
+    background-color: var(--blue);
+    border: 0;
+}

@@ -1,3 +1,5 @@
+@import 'colors.css';
+
 .tab-panel {
     border: 1px solid #ddd;
     padding: 10px;
@@ -46,4 +48,16 @@
   
   .nav-tabs {
       --bs-nav-tabs-border-width: 0px;
+  }
+
+  .primary {
+    background-color: var(--primary);
+  }
+
+  .secondary {
+    background-color: var(--secondary);
+  }
+
+  .border {
+    border-width: 1px;
   }
